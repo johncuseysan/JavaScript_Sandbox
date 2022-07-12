@@ -2,7 +2,7 @@
 
 # Object 
 
-## Define and Items to JavaScript Object 
+## Define and Adding Items to JavaScript Object 
 
 ```JS
 const Car = {type:"Fiat", model:"500", color:"white"};
@@ -24,7 +24,7 @@ Key: color Value: white
 
 # Set
 
-## Define and Items to Set
+## Define and Adding Items to Set
 
 ```JS
 const mySet1 = new Set();
