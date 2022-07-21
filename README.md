@@ -1,14 +1,29 @@
 # JavaScript Sandbox
 
-# Object 
+# Terms
+* NaN - Not-a-Number
 
-## Define and Adding Items to JavaScript Object 
+# Number
+
+## parseFloat()     
+
+The parseFloat() function parses an argument (converting it to a string first if needed) and returns a floating point number.
+
+* If the argument's first character can't be converted to a number (it's not any of the above characters), parseFloat returns NaN.
+
+## isFinite()    
+
+The global isFinite() function determines whether the passed value is a finite number. If needed, the parameter is first converted to a number.
+
+# Object
+
+## Define and Adding Items to JavaScript Object
 
 ```JS
 const Car = {type:"Fiat", model:"500", color:"white"};
 ```
 
-## Loop though JavaScript Object 
+## Loop though JavaScript Object
 
 ```JS
 for(const key in Car ){
@@ -52,5 +67,3 @@ Key: age Value: age
 [How to loop through objects keys and values in Javascript?
 ](https://flexiple.com/loop-through-object-javascript/)
 * Set   
-
-
